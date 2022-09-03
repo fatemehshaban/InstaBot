@@ -67,9 +67,8 @@ def login_page():
 	Label(frame,image=user,bg="#455566").place(x=236,y=20,width=128,height=128)
 
 	global usr,pwd
-
 	usr = tk.Entry(frame,font=("calibri",20),bg="#556080",fg="#FFFFFF",highlightthickness=0,borderwidth=0,justify='center')
-	usr.insert(0,"Username")
+	usr.insert(0,"baztabfloor2")
 
 	def clback(event):             #for erasing what we have in entry box
 		usr.delete(0,"end")
@@ -84,7 +83,7 @@ def login_page():
 
 
 	pwd = tk.Entry(frame,font=("calibri",20),show="*",bg="#556080",fg="#FFFFFF",highlightthickness=0,borderwidth=0,justify='center')
-	pwd.insert(0,"********")
+	pwd.insert(0,"fatemesara")
 
 	def cllback(event):
 		pwd.delete(0,"end")

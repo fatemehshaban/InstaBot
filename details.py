@@ -12,7 +12,7 @@ def savebio(driver,usr):
 			os.mkdir('Bio')
 		except:
 			pass
-		cur = os.getcwd()
+		cur = "c:\\fatemeh"#os.getcwd()
 		path = cur + "\\bio\\"  + usr + ".txt"
 		bio=""
 		for e in txt:
